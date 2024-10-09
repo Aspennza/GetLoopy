@@ -30,3 +30,14 @@ class UpByThree
         }
     }
 }
+
+class DownByTwo
+{
+    public static void main(String[] args)
+    {
+        for(int w = 10; w >= 0; w -= 2)
+        {
+            System.out.print("" + w + " ");
+        }
+    }
+}
