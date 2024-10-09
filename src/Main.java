@@ -19,3 +19,14 @@ class Decrementing
         }
     }
 }
+
+class UpByThree
+{
+    public static void main(String[] args)
+    {
+        for(int t = 0; t <= 18; t += 3)
+        {
+            System.out.print("" + t + " ");
+        }
+    }
+}
